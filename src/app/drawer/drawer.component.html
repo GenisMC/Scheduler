@@ -1,0 +1,14 @@
+<mat-sidenav-container class="drawer-container">
+  <mat-sidenav
+    class="drawer-sidenav"
+    #sidenav
+    [(opened)]="this.uiService.drawerOpen"
+  >
+    <span class="drawerHeader">Home</span>
+    <span class="drawerTile">Schedule</span>
+    <span class="drawerTile">Settings</span>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-header></app-header>
+  </mat-sidenav-content>
+</mat-sidenav-container>

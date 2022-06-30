@@ -1,0 +1,34 @@
+.drawer-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.drawer-sidenav {
+  width: 12rem;
+  display: flex;
+    flex-direction: column;
+}
+
+.drawerHeader {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.drawerTile {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
